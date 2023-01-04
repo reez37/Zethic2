@@ -1,0 +1,49 @@
+.navbar{
+    background-color: white;
+    .wrapper{
+        height: 7vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .left{
+            display: flex;
+            justify-content: center;
+            width: 20%;
+            div{
+                font-weight: 700;
+                font-size: x-large;
+            }
+
+        }
+        .right{
+            display: flex;
+            justify-content: center;
+            width: 20%;
+            .carticon{
+                position: relative;
+
+     
+              
+                .num{
+                    width: 15px;
+                    height: 15px;
+                    background-color: red;
+                    border-radius: 50%;
+                    color: white;
+                    position: absolute;
+                    top: -5px;
+                    right: -5px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 12px;
+                }
+            }
+            
+        }
+    }
+}
+.link{
+    color: black;
+}
